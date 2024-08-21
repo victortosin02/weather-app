@@ -66,7 +66,7 @@ export default function Home() {
                         getClickedCityCords(state.lat, state.lon);
                       }}
                     >
-                      <p className="px-6 py-4">{state.name}</p>
+                      <p className="px-6 py-4 font-medium">{state.name}</p>
                     </div>
                   );
                 })}

@@ -81,7 +81,7 @@ export default function Home() {
           Made by
           <Image src={"/logo-white.svg"} alt="logo" width={20} height={20} />
           <a
-            href="https://thecodedealer.com"
+            href="https://github.com/victortosin02/weather-app"
             target="_blank"
             className=" text-green-300 font-bold"
           >

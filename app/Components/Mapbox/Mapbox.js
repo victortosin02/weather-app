@@ -8,7 +8,7 @@ function FlyToActiveCity({ activeCityCords }) {
   const map = useMap();
 
   useEffect(() => {
-    if (activeCityCords) {
+    if (typeof window !== 'undefined' && activeCityCords) {
       const zoomLev = 13;
       const flyToOptions = {
         duration: 1.5,
